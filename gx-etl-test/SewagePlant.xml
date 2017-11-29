@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf8"?>
+<ArrayOfSubObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/">
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1713</SubID>
+    <SubName>临朐县污水处理厂</SubName>
+    <codvalue>38.98</codvalue>
+    <NH4value>0.36</NH4value>
+    <pfl>48.79999950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>3055</SubID>
+    <SubName>康达环保</SubName>
+    <codvalue>33.330002</codvalue>
+    <NH4value>0.18</NH4value>
+    <pfl>70.58499950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>2495</SubID>
+    <SubName>中信环境水务（昌邑）有限公司</SubName>
+    <codvalue>24.940001</codvalue>
+    <NH4value>0.46</NH4value>
+    <pfl>0.8150</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 12:00:00</DateTime>
+    <SubID>6276</SubID>
+    <SubName>峡山高新项目污水处理厂</SubName>
+    <codvalue>23.6180</codvalue>
+    <NH4value>4.7920</NH4value>
+    <pfl>0</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>12572</SubID>
+    <SubName>浩源环保</SubName>
+    <codvalue>20.65</codvalue>
+    <NH4value>0.31</NH4value>
+    <pfl>0.61</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-9 8:00:00</DateTime>
+    <SubID>1695</SubID>
+    <SubName>高新区污水处理厂入口</SubName>
+    <codvalue>273.40</codvalue>
+    <NH4value>60.1920</NH4value>
+    <pfl />
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1711</SubID>
+    <SubName>高密市第二污水处理厂</SubName>
+    <codvalue>37.080002</codvalue>
+    <NH4value>3.58</NH4value>
+    <pfl>90.77344750</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1712</SubID>
+    <SubName>中冶华天</SubName>
+    <codvalue>32.66</codvalue>
+    <NH4value>0.35</NH4value>
+    <pfl>82.25999950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1716</SubID>
+    <SubName>青州美陵污水公司出口</SubName>
+    <codvalue>17.65</codvalue>
+    <NH4value>0.24</NH4value>
+    <pfl>13.0950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>2615</SubID>
+    <SubName>红河污水处理厂</SubName>
+    <codvalue>43.381802</codvalue>
+    <NH4value>1.7679</NH4value>
+    <pfl>15.125150</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>2716</SubID>
+    <SubName>潍坊滨海华腾水业有限公司</SubName>
+    <codvalue>33.240002</codvalue>
+    <NH4value>1.86</NH4value>
+    <pfl>0.0350</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>3175</SubID>
+    <SubName>爱森水务</SubName>
+    <codvalue>29.02</codvalue>
+    <NH4value>0.21</NH4value>
+    <pfl>6.4450</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>3955</SubID>
+    <SubName>弥河污水净化公司出口</SubName>
+    <codvalue>42.619999</codvalue>
+    <NH4value>0.68</NH4value>
+    <pfl>27.62999950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>4295</SubID>
+    <SubName>崇杰污水</SubName>
+    <codvalue>36.75</codvalue>
+    <NH4value>1.88</NH4value>
+    <pfl>7.55</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1835</SubID>
+    <SubName>渤发水务</SubName>
+    <codvalue>29.17</codvalue>
+    <NH4value>0.01</NH4value>
+    <pfl>1.5750</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1718</SubID>
+    <SubName>昌乐污水处理厂</SubName>
+    <codvalue>24.599001</codvalue>
+    <NH4value>0.3132</NH4value>
+    <pfl>14.274750</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 12:00:00</DateTime>
+    <SubID>2398</SubID>
+    <SubName>青州美陵污水公司入口</SubName>
+    <codvalue>439.0750</codvalue>
+    <NH4value>16.69</NH4value>
+    <pfl>0</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 12:00:00</DateTime>
+    <SubID>7156</SubID>
+    <SubName>明泽水务有限公司入口</SubName>
+    <codvalue>551.80</codvalue>
+    <NH4value>28.0410</NH4value>
+    <pfl>166.70428750</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 12:00:00</DateTime>
+    <SubID>11552</SubID>
+    <SubName>高速环保有限公司（入口）</SubName>
+    <codvalue>638.88</codvalue>
+    <NH4value>16.5090</NH4value>
+    <pfl>0</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 12:00:00</DateTime>
+    <SubID>12573</SubID>
+    <SubName>汇众环保</SubName>
+    <codvalue>36.7340</codvalue>
+    <NH4value>0.4130</NH4value>
+    <pfl>7.132224</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>362</SubID>
+    <SubName>寒亭污水</SubName>
+    <codvalue>40.970001</codvalue>
+    <NH4value>0.3316</NH4value>
+    <pfl>12.9687</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>379</SubID>
+    <SubName>高密一污</SubName>
+    <codvalue>27.690001</codvalue>
+    <NH4value>0.1460</NH4value>
+    <pfl>9.241550</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1714</SubID>
+    <SubName>昌邑市海洋水业有限公司</SubName>
+    <codvalue>31.15</codvalue>
+    <NH4value>0.31</NH4value>
+    <pfl>40.774999</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>2915</SubID>
+    <SubName>新流芳污水处理厂</SubName>
+    <codvalue>24.389999</codvalue>
+    <NH4value>0.56</NH4value>
+    <pfl>0.1996</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>3116</SubID>
+    <SubName>昌城污水</SubName>
+    <codvalue>18.129999</codvalue>
+    <NH4value>0.09</NH4value>
+    <pfl>4.8950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>3155</SubID>
+    <SubName>城北中冶</SubName>
+    <codvalue>37.09</codvalue>
+    <NH4value>0.27</NH4value>
+    <pfl>31.15999950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 10:00:00</DateTime>
+    <SubID>4735</SubID>
+    <SubName>银河水务进口</SubName>
+    <codvalue>280.9440</codvalue>
+    <NH4value>24.5940</NH4value>
+    <pfl />
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>4895</SubID>
+    <SubName>昌乐蓝宝石水务发展有限公司</SubName>
+    <codvalue>33.795399</codvalue>
+    <NH4value>1.0643</NH4value>
+    <pfl>32.55889950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>11772</SubID>
+    <SubName>潍坊黄旗堡污水处理厂</SubName>
+    <codvalue>16.799999</codvalue>
+    <NH4value>0.13</NH4value>
+    <pfl>1.78</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1555</SubID>
+    <SubName>青州清源总排口</SubName>
+    <codvalue>22.780001</codvalue>
+    <NH4value />
+    <pfl>9.25</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1715</SubID>
+    <SubName>昌邑市紫光水业有限公司</SubName>
+    <codvalue>30.170099</codvalue>
+    <NH4value>0.2707</NH4value>
+    <pfl>37.381301</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1717</SubID>
+    <SubName>安丘污水</SubName>
+    <codvalue>26.719999</codvalue>
+    <NH4value>0.2331</NH4value>
+    <pfl>65.064898</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>2418</SubID>
+    <SubName>银河水务出口</SubName>
+    <codvalue>19.454901</codvalue>
+    <NH4value>0.1254</NH4value>
+    <pfl>3.4951</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 12:00:00</DateTime>
+    <SubID>4697</SubID>
+    <SubName>高密市第三污水厂入口</SubName>
+    <codvalue>437.50</codvalue>
+    <NH4value>56.8820</NH4value>
+    <pfl>0</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>5356</SubID>
+    <SubName>临朐荣怀出水口</SubName>
+    <codvalue>27.871099</codvalue>
+    <NH4value>1.6763</NH4value>
+    <pfl>34.45224950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 12:00:00</DateTime>
+    <SubID>7276</SubID>
+    <SubName>青州高柳污水处理厂出口</SubName>
+    <codvalue>49.0610</codvalue>
+    <NH4value>29.1180</NH4value>
+    <pfl>36.822309</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>7497</SubID>
+    <SubName>蓝天水务</SubName>
+    <codvalue>7.96</codvalue>
+    <NH4value>0.09</NH4value>
+    <pfl>0.02</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1475</SubID>
+    <SubName>诸城银河</SubName>
+    <codvalue>12.46</codvalue>
+    <NH4value>0.59</NH4value>
+    <pfl>19.97500050</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>2014</SubID>
+    <SubName>舜河污水</SubName>
+    <codvalue>27.360001</codvalue>
+    <NH4value>0.6024</NH4value>
+    <pfl>53.54795150</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>3595</SubID>
+    <SubName>城西水务</SubName>
+    <codvalue>15.31</codvalue>
+    <NH4value>0.17</NH4value>
+    <pfl>13.188950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>3615</SubID>
+    <SubName>东城水务</SubName>
+    <codvalue>31.16</codvalue>
+    <NH4value>0.18</NH4value>
+    <pfl>10.96999950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 12:00:00</DateTime>
+    <SubID>5476</SubID>
+    <SubName>景芝污水处理厂</SubName>
+    <codvalue>12.76</codvalue>
+    <NH4value>2.3870</NH4value>
+    <pfl>6.891885</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>7496</SubID>
+    <SubName>清源水务</SubName>
+    <codvalue>33.290001</codvalue>
+    <NH4value>0.29</NH4value>
+    <pfl>12.33999950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>2295</SubID>
+    <SubName>鑫兴污水</SubName>
+    <codvalue>45.150002</codvalue>
+    <NH4value />
+    <pfl>60.41</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1696</SubID>
+    <SubName>高新区污水处理厂出口</SubName>
+    <codvalue>44.619999</codvalue>
+    <NH4value>0.32</NH4value>
+    <pfl>38.019999</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>3295</SubID>
+    <SubName>舜王污水处理厂</SubName>
+    <codvalue>30.139999</codvalue>
+    <NH4value>3.24</NH4value>
+    <pfl>0.0450</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>4039</SubID>
+    <SubName>高密市第三污水处理厂</SubName>
+    <codvalue>29.870001</codvalue>
+    <NH4value>5.2229</NH4value>
+    <pfl>28.56564950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>11432</SubID>
+    <SubName>上实污水</SubName>
+    <codvalue>13.79</codvalue>
+    <NH4value>0.18</NH4value>
+    <pfl>42.915850</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>1455</SubID>
+    <SubName>坊子污水处理厂出口</SubName>
+    <codvalue>27.25</codvalue>
+    <NH4value>0.73</NH4value>
+    <pfl>9.17999950</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-12 13:00:00</DateTime>
+    <SubID>2295</SubID>
+    <SubName>鑫兴污水</SubName>
+    <codvalue />
+    <NH4value>2.48</NH4value>
+    <pfl>2.50</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 12:00:00</DateTime>
+    <SubID>3975</SubID>
+    <SubName>弥河污水净化公司入口</SubName>
+    <codvalue>318.50</codvalue>
+    <NH4value>24.1550</NH4value>
+    <pfl>435.171850</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>4195</SubID>
+    <SubName>华源水务</SubName>
+    <codvalue>26.08</codvalue>
+    <NH4value>0.38</NH4value>
+    <pfl>1.11</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 12:00:00</DateTime>
+    <SubID>4696</SubID>
+    <SubName> 高密市第二污水厂入口</SubName>
+    <codvalue>624.20</codvalue>
+    <NH4value>101.8970</NH4value>
+    <pfl>0</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 12:00:00</DateTime>
+    <SubID>7157</SubID>
+    <SubName>明泽水务有限公司出口</SubName>
+    <codvalue>29.70</codvalue>
+    <NH4value>0.1580</NH4value>
+    <pfl>6.195535</pfl>
+  </subObject>
+  <subObject>
+    <DateTime>2017-12-13 11:00:00</DateTime>
+    <SubID>12632</SubID>
+    <SubName>潍坊滨海康达环保水务有限公司</SubName>
+    <codvalue>32.50</codvalue>
+    <NH4value>3.54</NH4value>
+    <pfl>0.6850</pfl>
+  </subObject>
+</ArrayOfSubObject>

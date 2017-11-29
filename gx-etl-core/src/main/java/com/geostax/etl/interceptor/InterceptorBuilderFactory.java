@@ -23,31 +23,30 @@ import java.util.Locale;
 import com.geostax.etl.interceptor.Interceptor.Builder;
 
 /**
- * Factory used to register instances of Interceptors & their builders,
- * as well as to instantiate the builders.
+ * Factory used to register instances of Interceptors & their builders, as well
+ * as to instantiate the builders.
  */
 public class InterceptorBuilderFactory {
 
-  private static Class<? extends Builder> lookup(String name) {
-    try {
-      return InterceptorType.valueOf(name.toUpperCase(Locale.ENGLISH)).getBuilderClass();
-    } catch (IllegalArgumentException e) {
-      return null;
-    }
-  }
+	private static Class<? extends Builder> lookup(String name) {
+		try {
+			return InterceptorType.valueOf(name.toUpperCase(Locale.ENGLISH)).getBuilderClass();
+		} catch (IllegalArgumentException e) {
+			return null;
+		}
+	}
 
-  /**
-   * Instantiate specified class, either alias or fully-qualified class name.
-   */
-  public static Builder newInstance(String name)
-      throws ClassNotFoundException, InstantiationException,
-      IllegalAccessException {
+	/**
+	 * Instantiate specified class, either alias or fully-qualified class name.
+	 */
+	public static Builder newInstance(String name)
+			throws ClassNotFoundException, InstantiationException, IllegalAccessException {
 
-    Class<? extends Builder> clazz = lookup(name);
-    if (clazz == null) {
-      clazz = (Class<? extends Builder>) Class.forName(name);
-    }
-    return clazz.newInstance();
-  }
+		Class<? extends Builder> clazz = lookup(name);
+		if (clazz == null) {
+			clazz = (Class<? extends Builder>) Class.forName(name);
+		}
+		return clazz.newInstance();
+	}
 
 }

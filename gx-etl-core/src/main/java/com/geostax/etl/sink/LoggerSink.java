@@ -32,8 +32,8 @@ import com.google.common.base.Strings;
 
 /**
  * <p>
- * A {@link org.apache.flume.Sink} implementation that logs all events received at the INFO level
- * to the <tt>org.apache.flume.sink.LoggerSink</tt> logger.
+ * A {@link org.apache.flume.Sink} implementation that logs all events received
+ * at the INFO level to the <tt>org.apache.flume.sink.LoggerSink</tt> logger.
  * </p>
  * <p>
  * <b>WARNING:</b> Logging events can potentially introduce performance
@@ -54,59 +54,58 @@ import com.google.common.base.Strings;
  */
 public class LoggerSink extends AbstractSink implements Configurable {
 
-  private static final Logger logger = LoggerFactory
-      .getLogger(LoggerSink.class);
+	private static final Logger logger = LoggerFactory.getLogger(LoggerSink.class);
 
-  // Default Max bytes to dump
-  public static final int DEFAULT_MAX_BYTE_DUMP = 16;
+	// Default Max bytes to dump
+	public static final int DEFAULT_MAX_BYTE_DUMP = 16;
 
-  // Max number of bytes to be dumped
-  private int maxBytesToLog = DEFAULT_MAX_BYTE_DUMP;
+	// Max number of bytes to be dumped
+	private int maxBytesToLog = DEFAULT_MAX_BYTE_DUMP;
 
-  public static final String MAX_BYTES_DUMP_KEY = "maxBytesToLog";
+	public static final String MAX_BYTES_DUMP_KEY = "maxBytesToLog";
 
-  @Override
-  public void configure(Context context) {
-    String strMaxBytes = context.getString(MAX_BYTES_DUMP_KEY);
-    if (!Strings.isNullOrEmpty(strMaxBytes)) {
-      try {
-        maxBytesToLog = Integer.parseInt(strMaxBytes);
-      } catch (NumberFormatException e) {
-        logger.warn(String.format(
-            "Unable to convert %s to integer, using default value(%d) for maxByteToDump",
-            strMaxBytes, DEFAULT_MAX_BYTE_DUMP));
-        maxBytesToLog = DEFAULT_MAX_BYTE_DUMP;
-      }
-    }
-  }
+	@Override
+	public void configure(Context context) {
+		String strMaxBytes = context.getString(MAX_BYTES_DUMP_KEY);
+		if (!Strings.isNullOrEmpty(strMaxBytes)) {
+			try {
+				maxBytesToLog = Integer.parseInt(strMaxBytes);
+			} catch (NumberFormatException e) {
+				logger.warn(String.format("Unable to convert %s to integer, using default value(%d) for maxByteToDump",
+						strMaxBytes, DEFAULT_MAX_BYTE_DUMP));
+				maxBytesToLog = DEFAULT_MAX_BYTE_DUMP;
+			}
+		}
+	}
 
-  @Override
-  public Status process() throws EventDeliveryException {
-    Status result = Status.READY;
-    Channel channel = getChannel();
-    Transaction transaction = channel.getTransaction();
-    Event event = null;
+	@Override
+	public Status process() throws EventDeliveryException {
+		Status result = Status.READY;
+		Channel channel = getChannel();
+		Transaction transaction = channel.getTransaction();
+		Event event = null;
 
-    try {
-      transaction.begin();
-      event = channel.take();
+		try {
+			transaction.begin();
+			event = channel.take();
 
-      if (event != null) {
-        if (logger.isInfoEnabled()) {
-          logger.info("Event: " + EventHelper.dumpEvent(event, maxBytesToLog));
-        }
-      } else {
-        // No event found, request back-off semantics from the sink runner
-        result = Status.BACKOFF;
-      }
-      transaction.commit();
-    } catch (Exception ex) {
-      transaction.rollback();
-      throw new EventDeliveryException("Failed to log event: " + event, ex);
-    } finally {
-      transaction.close();
-    }
+			if (event != null) {
+				if (logger.isInfoEnabled()) {
+					logger.info("Event: " + EventHelper.dumpEvent(event, maxBytesToLog));
+				}
+			} else {
+				// No event found, request back-off semantics from the sink
+				// runner
+				result = Status.BACKOFF;
+			}
+			transaction.commit();
+		} catch (Exception ex) {
+			transaction.rollback();
+			throw new EventDeliveryException("Failed to log event: " + event, ex);
+		} finally {
+			transaction.close();
+		}
 
-    return result;
-  }
+		return result;
+	}
 }

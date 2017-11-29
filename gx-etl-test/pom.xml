@@ -20,7 +20,29 @@
 			<groupId>com.geostax</groupId>
 			<artifactId>gx-etl-shp-source</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.geostax</groupId>
+			<artifactId>gx-etl-gxsde-sink</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.geostax</groupId>
+			<artifactId>gx-etl-http-source</artifactId>
+		</dependency>
 
+		<dependency>
+			<groupId>com.geostax</groupId>
+			<artifactId>gx-etl-interceptors</artifactId>
+		</dependency>
 
+		<dependency>
+			<groupId>com.geostax</groupId>
+			<artifactId>gx-etl-geoprocessing</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20171018</version>
+		</dependency>
 	</dependencies>
 </project>

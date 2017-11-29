@@ -97,9 +97,13 @@ public abstract class AbstractConfigurationProvider implements ConfigurationProv
 			Map<String, SourceRunner> sourceRunnerMap = Maps.newHashMap();
 			Map<String, SinkRunner> sinkRunnerMap = Maps.newHashMap();
 			try {
+				// 1 Load Channels
 				loadChannels(agentConf, channelComponentMap);
+				// 2 Load Channels
 				loadSources(agentConf, channelComponentMap, sourceRunnerMap);
+				// 3 Load Channels
 				loadSinks(agentConf, channelComponentMap, sinkRunnerMap);
+				
 				Set<String> channelNames = new HashSet<String>(channelComponentMap.keySet());
 				for (String channelName : channelNames) {
 					ChannelComponent channelComponent = channelComponentMap.get(channelName);

@@ -38,7 +38,6 @@
 		<test.include.pattern>**/Test*.java</test.include.pattern>
 		<siteUrlDeployment>file://people.apache.org/www/incubator.apache.org/flume</siteUrlDeployment>
 		<stagingDirectory>${project.basedir}/target/docs</stagingDirectory>
-
 		<activemq.version>5.7.0</activemq.version>
 		<asynchbase.version>1.7.0</asynchbase.version>
 		<avro.version>1.7.4</avro.version>
@@ -135,6 +134,11 @@
 				<artifactId>gx-etl-core</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>com.geostax</groupId>
+				<artifactId>gx-etl-geoprocessing</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 
 			<dependency>
 				<groupId>com.geostax</groupId>
@@ -156,7 +160,37 @@
 
 			<dependency>
 				<groupId>com.geostax</groupId>
-				<artifactId>gx-etl-event</artifactId>
+				<artifactId>gx-etl-cassandra-sink</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.geostax</groupId>
+				<artifactId>gx-etl-gxsde-sink</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.geostax</groupId>
+				<artifactId>gx-etl-http-source</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.geostax</groupId>
+				<artifactId>gx-etl-interceptors</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.geostax</groupId>
+				<artifactId>gx-etl-stream-source</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.geostax</groupId>
+				<artifactId>gx-etl-model</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
@@ -208,12 +242,32 @@
 				<artifactId>gt-cql</artifactId>
 				<version>${gt.version}</version>
 			</dependency>
+
 			<dependency>
 				<groupId>org.geotools</groupId>
 				<artifactId>gt-shapefile</artifactId>
 				<version>${gt.version}</version>
 			</dependency>
-
+			<dependency>
+				<groupId>org.geotools</groupId>
+				<artifactId>gt-process</artifactId>
+				<version>${gt.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.geotools</groupId>
+				<artifactId>gt-process-feature</artifactId>
+				<version>${gt.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.geotools</groupId>
+				<artifactId>gt-process-geometry</artifactId>
+				<version>${gt.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.geotools</groupId>
+				<artifactId>gt-process-raster</artifactId>
+				<version>${gt.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
@@ -415,7 +469,11 @@
 				<artifactId>javax.annotation-api</artifactId>
 				<version>1.3</version>
 			</dependency>
-
+			<dependency>
+				<groupId>org.apache.zookeeper</groupId>
+				<artifactId>zookeeper</artifactId>
+				<version>${zookeeper.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -440,16 +498,11 @@
 	</build>
 	<modules>
 		<module>gx-etl-core</module>
-		<module>gx-etl-sdk</module>
 		<module>gx-etl-configuration</module>
 		<module>gx-etl-test</module>
-		<module>gx-etl-embedded-agent</module>
 		<module>gx-etl-node</module>
-		<module>gx-etl-sources</module>
-		<module>gx-etl-sinks</module>
-		<module>gx-etl-channels</module>
-		<module>gx-etl-client</module>
+		<module>gx-etl-plugins</module>
+		<module>gx-etl-model</module>
 		<module>gx-etl-agent</module>
-		<module>gx-etl-event</module>
 	</modules>
 </project>
